@@ -1,0 +1,639 @@
+@charset "utf-8";
+/* Web Developer - Tarcísio Caldas */
+* {
+	margin: 0;
+	padding: 0;
+}
+a.noticiasl {
+	font-size: 13px;
+	color: #6B6B6B;
+}
+a.noticiasl:link {
+	text-decoration: none;
+}
+a.noticiasl:visited {
+	text-decoration: none;
+	color: #6B6B6B;
+}
+a.noticiasl:hover {
+	text-decoration: underline;
+	color: #6B6B6B;
+}
+a.noticiasl:active {
+	text-decoration: none;
+	color: #6B6B6B;
+}
+.txt_site {
+	color:#666666;
+	font-family:verdana;
+	font-size:12px;
+	text-decoration:none;
+}
+.bloco_datas {
+	float:left;
+	width: 17px;
+	text-align:center;
+	font-size:17px;
+	font-weight:bold;
+	margin-top:15px;
+	margin-left:28px;
+	color:#FFF;
+}
+.bloco_dianoticia {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#5F5F5F;
+	font-size:13px;
+	font-weight:bold;
+	text-align:left;
+}
+.txt_formexame {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333;
+	font-size:13px;
+	font-weight:bold;
+	text-align:right;
+}
+.titulos_blocos {
+	float:left;
+	width: 261px;
+	margin-top:15px;
+	margin-left:20px;
+	margin-bottom:5px;
+}
+.imagem_blocos {
+	float:left;
+	width: 261px;
+	margin-left:20px;
+	margin-top:15px;
+	margin-bottom:5px;
+}
+.txt_blocos {
+	float:left;
+	width: 270px;
+	margin-left:20px;
+	margin-top:5px;
+	margin-bottom:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#7F7F7F;
+	font-size:13px;
+	text-align:left;
+}
+.bt_blocos {
+	float:left;
+	width: 74px;
+	margin-left:20px;
+	margin-top:15px;
+	margin-bottom:5px;
+}
+.numeros {
+	float:left;
+	width: 17px;
+	margin-top:6px;
+	margin-left:7px;
+	color:#5F5F5F;
+}
+.style19 {
+    color: #666666;
+    font-family: Tahoma;
+    font-size: 12px;
+}
+.titulo_form
+{
+ font-family:Arial, Helvetica, sans-serif;
+ color:#333333;
+ font-size:13px;
+ font-weight:bold;
+ text-align:left;
+ background-color:#EBF1F5;
+}
+p {
+	margin: 0 0 0px 0;
+}
+body {
+	background-color:#EDE9DD;
+	margin: 0;
+    padding: 0;
+}
+#corpo_site {
+	margin: auto;
+	margin-top:0px;
+	width:980px;
+	top:17px;
+}
+#conj_topo {
+ width:980px;
+ background-image:url(../imagens/conj_topo1.png);
+ background-repeat:no-repeat;
+ margin-top:30px;
+ height:182px;
+ margin-bottom: -5px;
+ float:left;
+}
+#logo_inicio{
+ width:232px;
+ margin-top:30px;
+ margin-left:45px;
+ float:left;	
+}
+#menu_parte1{
+ width:360px;
+ float:right;
+ margin-right:60px;
+ margin-top:80px;
+}
+#menu_submenu{
+ width: 718px;
+ float:right;
+  margin-right: -460px;
+ margin-top: 128px;
+}
+#menu_topo{
+    float:right;
+    width: 686px;
+}
+#conj_banner_menu {
+	float:left;
+	width: 980px;
+	background-color:#2C8B14;
+}
+#menu_rapido {
+	float:left;
+	width: 268px;
+	margin-left:27px;
+	background-color:#2C8B14;
+}
+#banner_destaque {
+	float:left;
+	width: 664px;
+	margin-left:10px;
+	margin-top:5px;
+}
+#coluna_esquerda_index {
+	float:left;
+	width: 300px;
+	background-color:#FFF;
+}
+#BuscaHome {
+    float: left;
+    margin-left: 20px;
+    margin-top: 26px;
+    width: 252px;
+}
+.campos{
+border: 0 none;
+    float: left;
+    height: 24px;
+    margin-left: 5px;
+    margin-top: 3px;
+    width: 173px;
+}
+#qu {
+    border: medium none !important;
+    color: #009900;
+    float: left;
+    font-style: italic;
+    height: 15px;
+    margin: 5px 7px 0;
+    padding: 4px;
+    width: 168px;
+}
+.bt_submit_find {
+    background: url("../imagens/bt_buscar.jpg") no-repeat 0  currentColor;
+    height: 27px;
+	margin-left: 13px;
+    margin-top: 1px;
+    width: 31px;
+}
+#bloco_data {
+	float:left;
+	width: 33px;
+	background-image:url(../imagens/fundo_data.jpg);
+	background-repeat:no-repeat;
+	text-align:center;
+	height: 32px;
+}
+#conj_noticias {
+	float:left;
+	margin-top:30px;
+	width:295px;
+}
+#titulo_noticias {
+	float:left;
+	margin-left:29px;
+	margin-top:15px;
+	width:368px;
+}
+#conj_bloco_noticia {
+	float:left;
+	margin-left:opx;
+	margin-bottom:10px;
+	margin-top:5px;
+	width:368px;
+}
+#bloco_dianoticia {
+	float:left;
+	width: 150px;
+	margin-top:5px;
+	margin-left:15px;
+}
+#bloco_noticia {
+	float:left;
+	width: 220px;
+	margin-top:5px;
+	margin-left:15px;
+	margin-bottom:10px;
+}
+#bloco_linha {
+	float:right;
+	width: 220px;
+	margin-right:120px;
+}
+#bloco_bt {
+	float:right;
+	width: 74px;
+	margin-top:10px;
+	margin-right:80px;
+}
+#resultado_exame {
+	float:left;
+	margin-left:10px;
+	width: 287px;
+	height:126px;
+	background-image:url(../imagens/fundo_resulexame.png);
+	background-repeat:no-repeat;
+	margin-top:20px;
+}
+#form_exame {
+	float:left;
+	width: 220px;
+	margin-top:40px;
+	margin-left:10px;
+}
+#conj_video {
+	float:left;
+	width: 288px;
+	margin-top: 39px;
+	margin-left:10px;
+}
+#titulo_video {
+	float:left;
+	width: 79px;
+	margin-top:10px;
+	margin-left:10px;
+}
+#video {
+	float:left;
+	width: 276px;
+	margin-top:5px;
+	margin-left:10px;
+}
+#descricao_video {
+	float:left;
+	width: 276px;
+	height: 127px;
+	margin-top:5px;
+	margin-left:2px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#545454;
+	text-align:left;
+}
+#miolo_index {
+	float:right;
+	width: 680px;
+	height: 1053px;
+	background-color:#FFF;
+}
+#bloco_atendimento {
+	float:left;
+	width: 607px;
+	margin-left:20px;
+	margin-top:15px;
+}
+#txt_bloco_atendimento {
+	float:left;
+	width: 607px;
+	margin-left:20px;
+	margin-bottom:30px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#7F7F7F;
+	font-size:14px;
+	text-align:left;
+}
+#linha_atendimento {
+	float:left;
+	width: 607px;
+	height:2px;
+	margin-left:20px;
+	background-image:url(../imagens/linha_equipe.png)
+}
+#conj_agendamento_convenios {
+	float:left;
+	width: 630px;
+	margin-left:20px;
+	margin-top:15px;
+	margin-bottom:20px;
+}
+#bloco_esquerdo {
+	float:left;
+	width: 300px;
+	margin-top:15px;
+	margin-bottom:20px;
+}
+#bloco_direito {
+	float:right;
+	width: 273px;
+	margin-top:15px;
+	margin-bottom:20px;
+}
+#conj_servicos_destaques {
+	float:left;
+	width: 630px;
+	margin-left:20px;
+	margin-top: 20px;
+	margin-bottom: -11px;
+}
+#titulo_servicos_destaques {
+	float:left;
+	width: 630px;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+#bloco_servico1 {
+	float:left;
+	width: 300px;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+#bloco_servico2 {
+	float:right;
+	width: 300px;
+	margin-bottom:20px;
+}
+#bloco_servico3 {
+	float:left;
+	width: 300px;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+#bloco_servico4 {
+	float:right;
+	width: 300px;
+	margin-bottom:20px;
+}
+.bloco_servico_img {
+	float:left;
+	width: 66px;
+	margin-bottom:20px;
+}
+.bloco_servico_titulo {
+	float:left;
+	width: 130px;
+	margin-left:20px;
+	margin-bottom:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#5F5F5F;
+	font-size:12px;
+	text-align:left;
+	font-weight:bold;
+}
+.bloco_servico_descricao {
+	float:left;
+	width: 202px;
+	margin-left:20px;
+	margin-bottom:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#7F7F7F;
+	font-size:13px;
+	text-align:left;
+}
+.bloco_servico_bt {
+	float:right;
+	width: 74px;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+#conj_certificados {
+	float:left;
+	width: 630px;
+	margin-bottom:20px;
+}
+#titulo_certificados {
+	float:left;
+	width: 630px;
+	margin-top:5px;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+#certificados {
+	float:left;
+	width: 630px;
+	margin-top:5px;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+/*ABAIXO REGRAS DAS PAGES INTERNAS*/
+#banner_internos {
+	float:left;
+	width: 980px;
+	background-color:#2C8B14;
+}
+#bloco_esquerdo_internos1 {
+	float:left;
+	width: 300px;
+	margin-top:15px;
+	margin-bottom:20px;
+}
+#bloco_esquerdo_internos2 {
+	float:left;
+	width: 300px;
+	margin-top:0px;
+	margin-bottom:20px;
+}
+#conj_video_internos {
+	float:left;
+	width: 288px;
+	margin-top: 10px;
+	margin-left:3px;
+}
+#busca_site_internos {
+    background: url("../imagens/buscar.jpg") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 82px;
+    margin-left: 27px;
+    width: 268px;
+}
+#miolo_internos {
+	float:right;
+	width: 980px;
+	margin-top: -4px;
+	background-color:#FFF;
+}
+.titulos_internos {
+	float:right;
+	width: 648px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:15px;
+}
+.titulos_internos_trabalhe {
+	float:left;
+	width: 980px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:15px;
+}
+.informacoes_internos {
+	float:left;
+	width: 630px;
+	margin-left:35px;
+	margin-bottom:30px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#7F7F7F;
+	font-size:13px;
+	text-align:justify;
+}
+
+.informacoes_internos .error{font:12px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#900;}
+
+.iframeResultadoBoxLogin {
+	background: url("../../imagens/servicosOnline/bgBoxLogin.jpg") repeat-x scroll center bottom transparent;
+	border-bottom: 1px solid #DFE6EE;
+	border-top: 1px solid #DFE6EE;
+	height: 56px;
+	margin-bottom: 26px;
+	padding: 13px 0 0 60px;
+	width: 500px;
+}
+.conj_imprensa {
+	float:left;
+	width: 640px;
+}
+.data_imprensa {
+	float:left;
+	width: 250px;
+	margin-bottom:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#007B3D;
+	text-align:left;
+	font-weight:bold;
+	font-size:13px;
+}
+.busca_medica {
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#007B3D;
+	text-align:left;
+	font-weight:bold;
+	font-size:12px;
+}
+.descricao_imprensa {
+	float:left;
+	width: 640px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333;
+	text-align:left;
+	font-size:13px;
+}
+.linha_imprensa {
+	float:left;
+	width: 640px;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:5px;
+	text-align:left;
+}
+.conj_boletim {
+	float:left;
+	width: 640px;
+	margin-bottom:20px;
+}
+.data_boletim {
+	float:left;
+	width: 80px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#007B3D;
+	text-align:left;
+	font-weight:bold;
+	font-size:13px;
+}
+.dados_boletim {
+	float:left;
+	width: 500px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	text-align:left;
+	font-size:13px;
+}
+#lista_medicos {
+	float:left;
+	width: 640px;
+}
+.linha_medico {
+	float:left;
+	width: 640px;
+	margin-top:10px;
+	margin-left: 8px;
+}
+.lista_nome {
+	float:left;
+	width: 262px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	text-align:left;
+	font-size:13px;
+}
+.lista_crm {
+	float:left;
+	width: 50px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	text-align:left;
+	font-size:13px;
+}
+.lista_especialidade {
+	float:left;
+	width: 250px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	text-align:left;
+	margin-left:47px;
+	font-size:13px;
+}
+#serv_esquerdo {
+	float:left;
+	width: 240px;
+	margin-bottom:40px;
+}
+#serv_direito {
+	float:right;
+	width: 240px;
+	margin-bottom:40px;
+}
+.serv_titulo {
+	float:left;
+	width: 240px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#5F5F5F;
+	font-size:13px;
+	font-weight:bold;
+	text-align:left;
+	margin-bottom:8px;
+}
+.serv_imagem {
+	float:left;
+	width: 230px;
+}
+.rodape {
+	clear:both;
+	float:left;
+	width: 980px;
+	margin-bottom:20px;
+}
+.rodape_internos {
+	clear:both;
+	float:left;
+	width: 980px;
+	margin-bottom:20px;
+	margin-top: -24px;
+}

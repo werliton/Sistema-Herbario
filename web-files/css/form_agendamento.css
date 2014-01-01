@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #000000;
+	font: 12px Arial, Helvetica, sans-serif;
+	margin: 10px;
+}
+h1 {
+	font-size: 18px;
+}
+h2 {
+	font-size: 16px;
+}
+h3 {
+	font-size: 14px;
+}
+p {
+	margin: 10px 0;
+}
+fieldset {
+	border: medium none;
+	margin: 10px 0;
+}
+fieldset p {
+	color: #5E6B79;
+	font-size: 11px;
+}
+legend {
+	color: #676767;
+}
+label {
+	display: block;
+	font-size: 12px;
+	margin: 5px 0;
+}
+input {
+	background: none repeat scroll 0 0 transparent;
+	border: 1px solid #80A9C9;
+}
+textarea {
+	font: 11px Arial, Helvetica, sans-serif;
+	height: 50px;
+	width: 300px;
+}
+a {
+	color: #025395;
+}
+.obr {
+	background: url("http://www.einstein.br/portal2007/images/campo_obr.gif") no-repeat scroll right top transparent;
+}
+.col {
+	text-align: right;
+	width: 140px;
+}
+.coluna {
+	display: block;
+}
+.coluna label {
+	display: inline;
+}
+.aviso {
+	color: #5E6B79;
+	display: block;
+	font-size: 12px;
+        float: left;
+        border: 1px solid #007B3D;
+        background: #019032;
+}
+.radio input {
+	border: medium none;
+	margin: 0 5px;
+}
+div.radio {
+	color: #555555;
+	font-size: 11px;
+	margin-bottom: 15px;
+	margin-left: 140px;
+	margin-top: -20px;
+}
+.txt02 {
+	width: 25px;
+}
+.txt03 {
+	width: 30px;
+}
+.txt04 {
+	width: 50px;
+}
+.txt05 {
+	width: 60px;
+}
+.txt08 {
+	width: 90px;
+}
+.txt50 {
+	width: 100px;
+}
+.txt60 {
+	width: 120px;
+}
+.txt80 {
+	width: 140px;
+}
+.txt100 {
+	width: 300px;
+}
